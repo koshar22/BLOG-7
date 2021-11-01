@@ -1,0 +1,97 @@
+body {
+  background-color: #ddd;
+  margin: 0%;
+  font-family: "Andika";
+  color: #050563;
+}
+
+.topp {
+  background-color: #fff;
+  border: 1px solid #bbb;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 100px;
+}
+.top .tags {
+  margin-top: 24px;
+}
+.top .tags a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 7px;
+}
+.top .tags a:hover {
+  background-color: #000;
+  color: #fff;
+  font-weight: 900;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px 100px auto;
+  grid-template-columns: 250px auto;
+  grid-gap: 100px;
+  margin: 50px 100px;
+}
+.main .left {
+  border: 1px solid #bbb;
+  padding: 30px 27px;
+  background-color: #fff;
+  height: 53%;
+  -webkit-box-shadow: 0 0 8px 5px #ccc;
+          box-shadow: 0 0 8px 5px #ccc;
+}
+.main .left img {
+  width: 80%;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  margin-left: 19px;
+}
+.main .left h3 {
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+.main .left .icons {
+  margin-top: 40px;
+}
+.main .left .icons i {
+  margin-right: 12px;
+  font-size: 20px;
+}
+.main .left p {
+  margin-top: 10px;
+}
+.main .right .one, .main .right .two, .main .right .three, .main .right .four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #bbb;
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 8px 5px #ccc;
+          box-shadow: 0 0 8px 5px #ccc;
+}
+.main .right .one img, .main .right .two img, .main .right .three img, .main .right .four img {
+  width: 200px;
+  height: 200px;
+}
+.main .right .one .para, .main .right .two .para, .main .right .three .para, .main .right .four .para {
+  padding-left: 30px;
+  margin: 0%;
+}
+.main .right .one .para h2, .main .right .two .para h2, .main .right .three .para h2, .main .right .four .para h2 {
+  margin: 0%;
+}
+.main .right .two {
+  margin-bottom: 80px;
+}

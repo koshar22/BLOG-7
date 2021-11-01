@@ -1,0 +1,128 @@
+$bg-color: #fff;
+
+$border: #bbb;
+
+body {
+    background-color: #ddd;
+    margin: 0%;
+    font-family: 'Andika';
+    color: rgb(5, 5, 99);
+    // border: 1px solid $border;
+}
+
+.topp {
+    background-color: $bg-color;
+    border: 1px solid $border;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+
+    .tags {
+        margin-top: 24px;
+        a {
+            text-decoration: none;
+            margin: 10px;
+            // color: #000;
+            padding: 7px;
+
+            &:hover {
+                background-color: #000;
+                color: $bg-color;
+                font-weight: 900;
+                // font-size: 20px;
+            }
+        }
+    }
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-gap: 100px;
+    margin: 50px 100px;
+    .left {
+        border: 1px solid $border;
+        padding: 30px 27px;
+        background-color: $bg-color;
+        height: 53%;
+        box-shadow: 0 0 8px 5px #ccc;
+
+        // .container {
+        //     width: 50px;
+        //     height: 50px;
+        //     position: relative;
+        
+        //     img {
+        //         position: absolute;
+        //         right: 0;
+        //         left: 0;
+        //         top: 0;
+        //         bottom: 0;
+        //         margin: auto auto;
+        //     }
+        // }
+
+        img {
+            width: 80%;
+            height: 160px;
+            // padding: 0 20px ;
+            border-radius: 50%;
+            border: 1px solid #eee;
+            margin-left: 19px;
+            
+        }
+
+        h3 {
+            margin-top: 50px;
+            text-transform: capitalize;
+        }
+
+        .icons {
+            margin-top: 40px;
+            i {
+                margin-right: 12px;
+                font-size: 20px;
+            }
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+    .right {
+        .one, .two, .three, .four {
+            display: flex;
+            border: 1px solid $border;
+            padding: 30px;
+            margin-bottom: 30px;
+            background-color: $bg-color;
+            box-shadow: 0 0 8px 5px #ccc;
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .para {
+                padding-left: 30px;
+                margin: 0%;
+
+                h2 {
+                    margin: 0%;
+                }
+            }
+        }
+
+        .two {
+            margin-bottom: 80px;
+        }
+    }
+}
+
+
+
+
